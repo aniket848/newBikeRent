@@ -78,7 +78,7 @@ const FullDetail = () => {
     setNav1(slider1);
     setNav2(slider2);
     window.scrollTo(0, 0);
-  });
+  },[setNav1,setNav2]);
 
   const settingsMain = {
     slidesToShow: 1,
