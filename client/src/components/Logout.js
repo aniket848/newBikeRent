@@ -28,7 +28,7 @@ const Logout = () => {
 
   useEffect(() => {
     startCalling();
-  }, []);
+  }, [startCalling]);
 };
 
 export default Logout;
