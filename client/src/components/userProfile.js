@@ -90,11 +90,11 @@ const UserProfile = () => {
   
   useEffect(() => {
     fetchOrders();
-  }, []);
+  }, [fetchOrders]);
 
   useEffect(() => {
     fetchAuctions();
-  }, []);
+  }, [fetchAuctions]);
 
 
   return (
