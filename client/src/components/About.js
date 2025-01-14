@@ -26,7 +26,7 @@ const About = ()=>{
     useEffect(()=>{
           findingUser();
           console.log(user);
-    },[])
+    },[findingUser])
 
     return(
        <h1>HI USER</h1>
